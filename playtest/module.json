@@ -1,0 +1,100 @@
+{
+    "id": "cosmere-rpg-playtest",
+    "title": "Cosmere RPG - Playtest Materials",
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "authors": [
+        {
+            "name": "Stan",
+            "discord": "stanvdb"
+        }
+    ],
+    "esmodules": [
+        "index.js"
+    ],
+    "packs": [
+        {
+            "name": "items",
+            "label": "Items",
+            "system": "cosmere-rpg",
+            "path": "packs/items",
+            "type": "Item",
+            "private": false
+        },
+        {
+            "name": "ancestries",
+            "label": "Ancestries",
+            "system": "cosmere-rpg",
+            "path": "packs/ancestries",
+            "type": "Item",
+            "private": false
+        },
+        {
+            "name": "cultures",
+            "label": "Cultures",
+            "system": "cosmere-rpg",
+            "path": "packs/cultures",
+            "type": "Item",
+            "private": false
+        },
+        {
+            "name": "heroic-paths",
+            "label": "Heroic Paths",
+            "system": "cosmere-rpg",
+            "path": "packs/heroic-paths",
+            "type": "Item",
+            "private": false
+        },
+        {
+            "name": "actions",
+            "label": "Actions",
+            "system": "cosmere-rpg",
+            "path": "packs/actions",
+            "type": "Item",
+            "private": false
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Cosmere RPG Playtest Materials",
+            "sorting": "m",
+            "color": "#141f3c",
+            "packs": [
+                "items"
+            ],
+            "folders": [
+                {
+                    "name": "Character Features",
+                    "sorting": "m",
+                    "color": "#1d2a4e",
+                    "packs": [
+                        "ancestries",
+                        "cultures",
+                        "heroic-paths"
+                    ]
+                },
+                {
+                    "name": "Rules",
+                    "sorting": "m",
+                    "color": "#1d2a4e",
+                    "packs": [
+                        "actions"
+                    ]
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/stanavdb/cosmere-rpg-worlds",
+    "manifest": "https://raw.githubusercontent.com/stanavdb/cosmere-rpg-worlds/main/playtest/module.json",
+    "download": "https://github.com/stanavdb/cosmere-rpg-worlds/releases/download/playtest-0.1.0/cosmere-rpg-playtest-0.1.0.zip"
+}

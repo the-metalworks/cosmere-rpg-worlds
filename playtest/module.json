@@ -1,15 +1,15 @@
 {
     "id": "cosmere-rpg-playtest",
     "title": "Cosmere RPG - Playtest Materials",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
     },
     "authors": [
         {
-            "name": "Stan",
-            "discord": "stanvdb"
+            "name": "The Metalworks",
+            "url": "https://github.com/the-metalworks"
         }
     ],
     "esmodules": [
@@ -49,10 +49,26 @@
             "private": false
         },
         {
+            "name": "radiant-paths",
+            "label": "Radiant Paths",
+            "system": "cosmere-rpg",
+            "path": "packs/radiant-paths",
+            "type": "Item",
+            "private": false
+        },
+        {
             "name": "actions",
             "label": "Actions",
             "system": "cosmere-rpg",
             "path": "packs/actions",
+            "type": "Item",
+            "private": false
+        },
+        {
+            "name": "surges",
+            "label": "Surges",
+            "system": "cosmere-rpg",
+            "path": "packs/surges",
             "type": "Item",
             "private": false
         }
@@ -73,7 +89,8 @@
                     "packs": [
                         "ancestries",
                         "cultures",
-                        "heroic-paths"
+                        "heroic-paths",
+                        "radiant-paths"
                     ]
                 },
                 {
@@ -81,12 +98,25 @@
                     "sorting": "m",
                     "color": "#1d2a4e",
                     "packs": [
-                        "actions"
+                        "actions",
+                        "surges"
                     ]
                 }
             ]
         }
     ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "cosmere-rpg",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg/refs/heads/release-0.2.0/src/system.json",
+                "compatibility": {
+                    "verified": "0.2.0"
+                }
+            }
+        ]
+    },
     "languages": [
         {
             "lang": "en",
@@ -94,7 +124,7 @@
             "path": "lang/en.json"
         }
     ],
-    "url": "https://github.com/stanavdb/cosmere-rpg-worlds",
-    "manifest": "https://raw.githubusercontent.com/stanavdb/cosmere-rpg-worlds/main/playtest/module.json",
-    "download": "https://github.com/stanavdb/cosmere-rpg-worlds/releases/download/playtest-0.1.1/cosmere-rpg-playtest-0.1.1.zip"
+    "url": "https://github.com/the-metalworks/cosmere-rpg-worlds",
+    "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg-worlds/main/playtest/module.json",
+    "download": "https://github.com/the-metalworks/cosmere-rpg-worlds/releases/download/playtest-0.2.0/cosmere-rpg-playtest-0.2.0.zip"
 }

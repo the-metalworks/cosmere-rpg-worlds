@@ -1,7 +1,7 @@
 {
     "id": "cosmere-rpg-playtest",
     "title": "Cosmere RPG - Playtest Materials",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
@@ -110,9 +110,9 @@
             {
                 "id": "cosmere-rpg",
                 "type": "system",
-                "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg/refs/heads/release-0.2.2/src/system.json",
+                "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg/refs/heads/release-0.3.0/src/system.json",
                 "compatibility": {
-                    "verified": "0.2.2"
+                    "verified": "0.3.0"
                 }
             }
         ]
@@ -126,5 +126,5 @@
     ],
     "url": "https://github.com/the-metalworks/cosmere-rpg-worlds",
     "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg-worlds/main/playtest/module.json",
-    "download": "https://github.com/the-metalworks/cosmere-rpg-worlds/releases/download/playtest-0.2.2/cosmere-rpg-playtest-0.2.2.zip"
+    "download": "https://github.com/the-metalworks/cosmere-rpg-worlds/releases/download/playtest-0.3.0/cosmere-rpg-playtest-0.3.0.zip"
 }
